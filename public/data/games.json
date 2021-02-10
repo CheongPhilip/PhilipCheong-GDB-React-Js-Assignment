@@ -1,0 +1,278 @@
+[
+	{
+		"Title":"jackpot",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 1,
+					"End": 7
+				},
+				"Col":{
+					"Start": 1,
+					"End":5
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":1,
+					"End": 12
+				},
+				"Col":{
+					"Start":1,
+					"End":9
+				}
+			}
+		}
+	},
+	{
+		"Title":"element",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 1,
+					"End": 4
+				},
+				"Col":{
+					"Start": 5,
+					"End":7
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":12,
+					"End": 15
+				},
+				"Col":{
+					"Start":1,
+					"End":5
+				}
+			}
+		}
+	},
+	{
+		"Title":"racer",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 1,
+					"End": 4
+				},
+				"Col":{
+					"Start": 7,
+					"End":9
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":12,
+					"End": 15
+				},
+				"Col":{
+					"Start":5,
+					"End":9
+				}
+			}
+		}
+	},
+	{
+		"Title":"caesar",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 4,
+					"End": 7
+				},
+				"Col":{
+					"Start": 5,
+					"End":7
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":15,
+					"End": 18
+				},
+				"Col":{
+					"Start":1,
+					"End":5
+				}
+			}
+		}
+	},
+	{
+		"Title":"cyberpunk",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 4,
+					"End": 7
+				},
+				"Col":{
+					"Start": 7,
+					"End":9
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":15,
+					"End": 18
+				},
+				"Col":{
+					"Start":5,
+					"End":9
+				}
+			}
+		}
+	},
+	{
+		"Title":"casino",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 7,
+					"End": 10
+				},
+				"Col":{
+					"Start": 1,
+					"End":5
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":18,
+					"End": 21
+				},
+				"Col":{
+					"Start":1,
+					"End":9
+				}
+			}
+		}
+	},
+	{
+		"Title":"cleo",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 7,
+					"End": 10
+				},
+				"Col":{
+					"Start": 5,
+					"End":7
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":21,
+					"End": 24
+				},
+				"Col":{
+					"Start":1,
+					"End":5
+				}
+			}
+		}
+	},
+	{
+		"Title":"football",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 7,
+					"End": 10
+				},
+				"Col":{
+					"Start": 7,
+					"End":9
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":21,
+					"End": 24
+				},
+				"Col":{
+					"Start":5,
+					"End":9
+				}
+			}
+		}
+	},
+	{
+		"Title":"motorgp",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 10,
+					"End": 13
+				},
+				"Col":{
+					"Start": 1,
+					"End":3
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":24,
+					"End": 27
+				},
+				"Col":{
+					"Start":1,
+					"End":5
+				}
+			}
+		}
+	},
+	{
+		"Title":"esport",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 10,
+					"End": 13
+				},
+				"Col":{
+					"Start": 3,
+					"End":5
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":24,
+					"End": 27
+				},
+				"Col":{
+					"Start":5,
+					"End":9
+				}
+			}
+		}
+	},
+	{
+		"Title":"multiCollection",
+		"Grid":{
+			"Desktop": {
+				"Row":{
+					"Start": 10,
+					"End": 13
+				},
+				"Col":{
+					"Start": 5,
+					"End":9
+				}
+			},
+			"Mobile": {
+				"Row": {
+					"Start":27,
+					"End": 30
+				},
+				"Col":{
+					"Start":1,
+					"End":9
+				}
+			}
+		}
+
+	}
+ ]
