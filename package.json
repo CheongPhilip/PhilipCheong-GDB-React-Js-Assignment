@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "http://cheongphilip.github.io/gbd-react-js-assignment",
+  "homepage": "http://cheongphilip.github.io/gbd-tech-assignment",
   "type": "module",
   "scripts": {
     "serve": "webpack-cli serve --mode=development --env development --open --hot",
