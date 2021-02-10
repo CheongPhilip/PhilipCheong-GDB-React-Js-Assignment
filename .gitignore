@@ -2,8 +2,6 @@
 *.log
 yarn-debug.log*
 yarn-error.log*
-
-# Compiled binary addons (http://nodejs.org/api/addons.html)
 dist/
 
 # Dependency directories

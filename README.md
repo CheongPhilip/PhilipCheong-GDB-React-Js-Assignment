@@ -14,6 +14,8 @@
 
 - yarn install
 - yarn serve
+- yarn test
+- yarn test:watch
 
 ## Deploy
 

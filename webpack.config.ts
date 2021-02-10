@@ -63,9 +63,9 @@ const webpackConfig = (env: { WEBPACK_SERVE: boolean, development: boolean, prod
 				}
 			]
 		},
-		devServer: {
-			historyApiFallback: true,
-		},
+		// devServer: {
+		// 	historyApiFallback: true,
+		// },
 		plugins: [
 			new HtmlWebpackPlugin({
 				template: "./public/index.html",

@@ -236,7 +236,9 @@ export const LayoutHeaderComponent: React.FunctionComponent<Props> = ({
         actions.initResources();
         actions.setScreenWidth(window.innerWidth);
         actions.setNavLink(
-            window.location.pathname === "/" ? "home" : window.location.pathname.replace("/", "")
+            window.location.hash === `#/${process.env.AppUrl}`
+                ? "home"
+                : window.location.hash.replace("#/", "")
         );
         window.addEventListener("resize", () => actions.setScreenWidth(window.innerWidth));
     }, [actions]);
