@@ -16,7 +16,11 @@ export const store = configureStore({
         home: homeReducer
     },
     middleware: (getDefaultMiddleware) =>
-        getDefaultMiddleware().prepend(sagaMiddleware).concat(logger)
+        getDefaultMiddleware({
+            serializableCheck: false
+        })
+            .prepend(sagaMiddleware)
+            .concat(logger)
 });
 
 function* rootSaga() {

@@ -6,8 +6,8 @@ import {Resources, ActionTypes} from "./types";
 
 function* handleInitResources() {
     try {
-        const response = yield call(() => axios.get<Resources[]>("/public/data/nav.json"));
-        yield put(actCollections.initResourcesSuccess(response.data));
+        const response = yield call(() => require("../../assets/data/nav.json"));
+        yield put(actCollections.initResourcesSuccess(response));
     } catch (e) {
         yield put(actCollections.initResourcesFailure({...e}));
     }

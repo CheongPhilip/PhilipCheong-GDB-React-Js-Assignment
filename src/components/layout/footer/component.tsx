@@ -77,7 +77,7 @@ export const LayoutFooterComponent: React.FunctionComponent = (): JSX.Element =>
     return (
         <StyledFooterRow>
             <StyledFooterCol>
-                <img src="/public/images/logo.png" alt="logo" />
+                <img src={require("../../../assets/images/logo.png")} alt="logo" />
                 <StyledFooterListLeft>
                     <StyledFooterListItem>
                         <Link className={"bold"} to="/contact-us">

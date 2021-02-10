@@ -6,9 +6,9 @@ import {ActionTypes, Game} from "./types";
 
 function* handleInitGames() {
     try {
-        const response = yield call(() => axios.get<Game[]>("/public/data/games.json"));
+        const response = yield call(() => require("../../assets/data/games.json"));
         yield delay(2000); // Simulate loading on requesting api
-        yield put(actCollections.initGamesSuccess(response.data));
+        yield put(actCollections.initGamesSuccess(response));
     } catch (e) {
         yield put(actCollections.initGamesFailure({...e}));
     }

@@ -122,7 +122,7 @@ const StyledFigureExploreButton = styled(Button).attrs(() => ({
     opacity: 0;
     transform: translateY(10%);
     transition: all 0.5s;
-    ::after {
+    &::after {
         font-size: 1.59em;
         font-family: "Material Icons";
         content: "chevron_right";
@@ -204,7 +204,7 @@ const StyledGridRenderer = (props: Game): JSX.Element => {
                 cssProps={figureCss.cssProps}
                 cssPropsMobile={figureCss.cssPropsMobile}
             >
-                <img src={`/public/images/${props.Title}.png`} alt={props.Title} />
+                <img src={require(`../../assets/images/${props.Title}.png`)} alt={props.Title} />
                 <StyledFigureCaption
                     cssProps={figureCaptionCss.cssProps}
                     cssPropsMobile={figureCaptionCss.cssPropsMobile}
@@ -272,7 +272,7 @@ const StyledGridRenderer = (props: Game): JSX.Element => {
                 cssProps={figureCss.cssProps}
                 cssPropsMobile={figureCss.cssPropsMobile}
             >
-                <img src={`/public/images/${props.Title}.png`} alt={props.Title} />
+                <img src={require(`../../assets/images/${props.Title}.png`)} alt={props.Title} />
                 <StyledFigureCaption
                     cssProps={figureCaptionCss.cssProps}
                     cssPropsMobile={figureCaptionCss.cssPropsMobile}
@@ -329,7 +329,7 @@ const StyledGridRenderer = (props: Game): JSX.Element => {
                 cssProps={figureCss.cssProps}
                 cssPropsMobile={figureCss.cssPropsMobile}
             >
-                <img src={`/public/images/${props.Title}.png`} alt={props.Title} />
+                <img src={require(`../../assets/images/${props.Title}.png`)} alt={props.Title} />
                 <StyledFigureCaption
                     cssProps={figureCaptionCss.cssProps}
                     cssPropsMobile={figureCaptionCss.cssPropsMobile}
@@ -343,7 +343,7 @@ const StyledGridRenderer = (props: Game): JSX.Element => {
                 </StyledFigureCaption>
             </StyledFigure>
         );
-    } else if (props.Title === "multiCollection") {
+    } else if (props.Title === "multicollection") {
         const figureCaptionCss: Props = {
             cssProps: {
                 width: "35em",
@@ -393,7 +393,7 @@ const StyledGridRenderer = (props: Game): JSX.Element => {
                 cssProps={figureCss.cssProps}
                 cssPropsMobile={figureCss.cssPropsMobile}
             >
-                <img src={`/public/images/${props.Title}.png`} alt={props.Title} />
+                <img src={require(`../../assets/images/${props.Title}.png`)} alt={props.Title} />
                 <StyledFigureCaption
                     cssProps={figureCaptionCss.cssProps}
                     cssPropsMobile={figureCaptionCss.cssPropsMobile}
@@ -420,7 +420,7 @@ const StyledGridRenderer = (props: Game): JSX.Element => {
                 cssProps={figureCss.cssProps}
                 cssPropsMobile={figureCss.cssPropsMobile}
             >
-                <img src={`/public/images/${props.Title}.png`} alt={props.Title} />
+                <img src={require(`../../assets/images/${props.Title}.png`)} alt={props.Title} />
             </StyledFigure>
         );
     }

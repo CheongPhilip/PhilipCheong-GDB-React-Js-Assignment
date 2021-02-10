@@ -280,17 +280,13 @@ export const LayoutHeaderComponent: React.FunctionComponent<Props> = ({
                 }
             });
         actions.setNavLink(link);
+        state.expanded && handleExpand(false);
     };
 
     return (
         <StyledHeaderContainer>
             <StyledHeaderLeftSection>
-                <img
-                    src="/public/images/Logo_2x.png"
-                    alt="logo"
-                    sizes="(min-width: 376px) 288px, 144px"
-                    srcSet="/public/images/logo.png 144w, /public/images/Logo_2x.png 288w"
-                />
+                <img src={require("../../../assets/images/logo_2x.png")} alt="logo" />
             </StyledHeaderLeftSection>
             <StyledHamburgerContainer>
                 <span className={"material-icons"} onClick={() => handleExpand(!state.expanded)}>

@@ -127,10 +127,6 @@ describe("Layout Header", () => {
             expect(wrapper.find(ConnectedLayoutHeader).length).toEqual(1);
         });
 
-        it("Should contain a logo", () => {
-            expect(wrapper.find("img").prop("src")).toMatch(/^\/public\/images\/Logo(_2x)?\.png$/);
-        });
-
         it("Should contains login and sign up button", () => {
             wrapper.find("button > span").map((item) => {
                 expect(item.text()).toMatch(/^(Login|Sign Up)$/);
