@@ -5,7 +5,7 @@ import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import { TsconfigPathsPlugin } from "tsconfig-paths-webpack-plugin";
 
 const webpackConfig = (env: { WEBPACK_SERVE: boolean, development: boolean, production: boolean }): Configuration => {
-	const AppUrl = env.development ? "/" : "/gbd-tech-assignment/"
+	const AppUrl = env.development ? "/" : "/PhilipCheong-GDB-React-Js-Assignment/"
 
 	return {
 		entry: "./src/index.tsx",

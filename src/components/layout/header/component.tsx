@@ -286,7 +286,7 @@ export const LayoutHeaderComponent: React.FunctionComponent<Props> = ({
     return (
         <StyledHeaderContainer>
             <StyledHeaderLeftSection>
-                <img src={require("../../../assets/images/logo_2x.png")} alt="logo" />
+                <img src={require("../../../assets/images/logo.png")} alt="logo" />
             </StyledHeaderLeftSection>
             <StyledHamburgerContainer>
                 <span className={"material-icons"} onClick={() => handleExpand(!state.expanded)}>
@@ -313,7 +313,7 @@ export const LayoutHeaderComponent: React.FunctionComponent<Props> = ({
                             <StyledNavigationListItem key={item.title}>
                                 <Link
                                     id={item.title.toLocaleLowerCase().replaceAll(" ", "-")}
-                                    to={item.link}
+                                    to={`${process.env.AppUrl + item.link}`}
                                     onClick={(e) => handleNavigation(e.currentTarget.id)}
                                 >
                                     {item.title}

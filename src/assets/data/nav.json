@@ -1,26 +1,26 @@
 [
 	{
 		"title": "Home",
-		"link": "/"
+		"link": ""
 	},
 	{
 		"title": "RPG",
-		"link": "/rpg"
+		"link": "rpg"
 	},
 	{
 		"title": "Arcade",
-		"link": "/arcade"
+		"link": "arcade"
 	},
 	{
 		"title": "Brain Games",
-		"link": "/brain-games"
+		"link": "brain-games"
 	},
 	{
 		"title": "Support",
-		"link": "/support"
+		"link": "support"
 	},
 	{
 		"title": "Contact Us",
-		"link": "/contact-us"
+		"link": "contact-us"
 	}
 ]
